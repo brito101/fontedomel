@@ -1,0 +1,15 @@
+/* Theme name: Fonte do Mel 
+Description: Theme developed for the Brazilian beekeeping store "Fonte do Mel" in 2022-05.
+Version: 1.0.0
+Author: Rodrigo Brito
+Author URI: https://www.rodrigobrito.dev.br
+*/
+@import "css/base.css";
+@import "css/header.css";
+@import "./css/slide.css";
+@import "./css/home.css";
+@import "./css/products.css";
+@import "./css/footer.css";
+@import "./css/product.css";
+@import "./css/woocommerce.css";
+@import "./css/privacy-police.css";
