@@ -6,12 +6,11 @@
 .footer img {
   margin: 0 auto;
   width: 250px;
-  height: auto;
 }
 
 .footer-info {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -48,8 +47,12 @@
 }
 
 .footer-menu ul {
-  display: grid;
-  grid-template-columns: minmax(100px, 200px) minmax(100px, 200px);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-menu ul li {
+  flex-basis: 100%;
 }
 
 .footer-copy {
