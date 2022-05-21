@@ -154,7 +154,7 @@
 
 .menu-categorias ul li .sub-menu {
   background-color: var(--cor-background-contraste);
-  color: #fff;
+  color: var(--cor-fonte-contraste);
   display: none;
   width: 100%;
   position: absolute;
@@ -172,6 +172,7 @@
   flex-wrap: wrap;
   visibility: visible;
   opacity: 1;
+  z-index: 999;
 }
 
 .menu-categorias a:hover,
@@ -190,5 +191,13 @@
     justify-content: initial;
     overflow-wrap: unset;
     white-space: nowrap;
+  }
+
+  .menu-categorias ul li .sub-menu {
+    display: none !important;
+  }
+
+  .menu-categorias ul li.menu-item-has-children:hover > ul.sub-menu {
+    display: none !important;
   }
 }

@@ -107,21 +107,29 @@
 
 .pagination .page-numbers {
   border-radius: 2px;
-  background: var(--cor-background);
-  color: #fff;
+  background: transparent;
+  color: var(--cor-fonte);
   padding: 4px 10px;
+  border: 1px solid var(--cor-border);
 }
 
 .pagination span.page-numbers {
-  color: var(--cor-fonte);
-  background: transparent;
+  background: var(--cor-background);
+  color: #fff;
   border: 1px solid var(--cor-border);
 }
 
 .pagination .next,
 .pagination .prev {
-  background: #fff;
   color: var(--cor-fonte);
+  background: transparent;
+}
+
+.pagination .page-numbers:hover,
+.pagination .next:hover,
+.pagination .prev:hover {
+  background: var(--cor-background);
+  color: #fff;
 }
 
 /* FILTROS */

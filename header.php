@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-  <title><?php wp_title('|'); ?></title>
+  <title><?php bloginfo('name') - wp_title('|'); ?></title>
   <?php wp_head(); ?>
 </head>
 
