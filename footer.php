@@ -25,7 +25,10 @@
       <h3>Contato</h3>
       <li>(11) 2307-1900</li>
       <li>(11) 4117-3536</li>
-      <li>(11) 98586-1944</li>
+      <li><a href="https://wa.me/5511985861944" title="WhatsApp" target="_blank" rel="noreferrer">(11) 98586-1944</a></li>
+      <li>
+        <a title="Contato por e-mail" href="mailto:loja@fontedomel.com.br" rel="noreferrer">loja@fontedomel.com.br</a>
+      </li>
     </section>
     <section>
       <h3>Pagamentos</h3>
