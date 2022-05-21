@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
   <title><?php wp_title('|'); ?></title>
   <?php wp_head(); ?>
 </head>
@@ -20,7 +20,7 @@
   ?>
 
   <header class="header container">
-    <a href="<?php bloginfo('url'); ?>"><img src="<?= $img_url; ?>/logo.svg" alt="<?php bloginfo('name') ?>" width="192" height="192" /></a>
+    <a href="<?php bloginfo('url'); ?>"><img src="<?= $img_url; ?>/logo.png" alt="<?php bloginfo('name') ?>" width="192" height="192" /></a>
     <div class="busca">
       <form action="<?php bloginfo('url'); ?>/loja/" method="get">
         <input type="text" name="s" id="s" placeholder="Buscar" value="<?php the_search_query(); ?>">

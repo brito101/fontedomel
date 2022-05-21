@@ -29,6 +29,12 @@
 .slide img {
   display: block;
   max-width: 100%;
+  max-height: 450px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  aspect-ratio: 1;
 }
 .slide li.active {
   opacity: 1;

@@ -1,5 +1,5 @@
 <footer class="footer">
-  <img src="<?= get_stylesheet_directory_uri(); ?>/img/logo.svg" alt="<?php bloginfo('name') ?>" width="250" height="250">
+  <img src="<?= get_stylesheet_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo('name') ?>" width="250" height="250">
   <div class="container footer-info">
     <section>
       <h3>Páginas</h3>
@@ -37,7 +37,7 @@
   $base_state = $countries->get_base_state();
   $complete_address = "$base_address, $base_city, $base_state";
   ?>
-  <small class="footer-copy">Decora Mais Você &copy; <?= date('Y'); ?> - <?= $complete_address; ?></small>
+  <small class="footer-copy"><?= bloginfo(); ?> &copy; <?= date('Y'); ?> - <?= $complete_address; ?></small>
 </footer>
 <?php wp_footer(); ?>
 <script src="<?= get_stylesheet_directory_uri(); ?>/js/slide.js"></script>

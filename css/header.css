@@ -22,6 +22,7 @@
   .header > a img {
     width: 80%;
     margin-left: 0;
+    height: auto;
   }
 }
 
@@ -119,7 +120,7 @@
   border-radius: 50%;
   width: 16px;
   height: 16px;
-  background: var(--cor-principal);
+  background: var(--cor-background-contraste);
   font-size: 0.7rem;
   font-weight: bold;
   display: flex;
@@ -134,6 +135,7 @@
 .menu-categorias {
   background: var(--cor-background);
   padding: 5px;
+  position: relative;
 }
 
 .menu-categorias ul {
@@ -146,13 +148,35 @@
 }
 
 .menu-categorias a {
-  color: var(--cor-fonte-contraste);
-  padding: 10px;
+  color: var(--cor-carrinho-count);
+  padding: 20px 10px;
+}
+
+.menu-categorias ul li .sub-menu {
+  background-color: var(--cor-background-contraste);
+  color: #fff;
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+.menu-categorias ul li.menu-item-has-children:hover > ul.sub-menu {
+  display: block;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  visibility: visible;
+  opacity: 1;
 }
 
 .menu-categorias a:hover,
 .menu-categorias .current-menu-item a {
-  color: #fff;
+  color: var(--cor-principal);
 }
 
 @media (max-width: 800px) {
