@@ -1,5 +1,18 @@
+.main-hero {
+  background-image: url("../img/banner-1000x500.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
 .header {
-  margin: 30px auto;
+  margin: 0 auto;
   padding: 0 20px;
   display: flex;
   flex-wrap: wrap;
@@ -15,26 +28,22 @@
 
 .header > a img {
   width: 100%;
-  margin-left: -200px;
 }
 
 @media (max-width: 1142px) {
   .header > a img {
     width: 80%;
-    margin-left: 0;
     height: auto;
   }
 }
 
 .header .busca {
-  flex-basis: 40%;
   display: flex;
   justify-content: center;
   position: relative;
 }
 
 .header .conta {
-  flex-basis: 40%;
   display: flex;
   justify-content: center;
 }
@@ -100,6 +109,9 @@
   padding: 5px 0px 5px 34px;
   background-repeat: no-repeat;
   background-position: center left;
+  color: #fff;
+  text-shadow: 0 0 1em #523a03, 0 0 1em #523a03, 0 0 1em #523a03, -1px 0 #523a03,
+    0 1px #523a03, 1px 0 #523a03, 0 -1px #523a03;
 }
 
 .conta .minha-conta {
@@ -130,6 +142,7 @@
   position: absolute;
   top: 0px;
   left: 5px;
+  text-shadow: none;
 }
 
 .menu-categorias {
