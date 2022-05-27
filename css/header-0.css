@@ -1,7 +1,7 @@
 .main-hero {
-  background-image: url("../img/banner-27MAI2022-2.webp");
+  background-image: url("../img/banner-26MAI2022-1250x833.webp");
   background-repeat: no-repeat;
-  background-position: center left;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -110,6 +110,8 @@
   background-repeat: no-repeat;
   background-position: center left;
   color: #fff;
+  text-shadow: 0 0 1em #523a03, 0 0 1em #523a03, 0 0 1em #523a03, -1px 0 #523a03,
+    0 1px #523a03, 1px 0 #523a03, 0 -1px #523a03;
 }
 
 .conta .minha-conta {
