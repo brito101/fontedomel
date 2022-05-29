@@ -1,11 +1,12 @@
 .main-hero {
-  background-image: url("../img/bg-2022-05-29.webp");
+  background-image: url("../img/banner-27MAI2022-2.webp");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-attachment: fixed;
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -82,31 +83,12 @@
 }
 
 .busca #s {
-  border: 2px solid #fff;
+  border: 2px solid var(--cor-border);
   font-size: 1.125rem;
   border-radius: 4px;
   padding: 12px 60px 12px 20px;
   width: 100%;
   font-family: var(--font-family);
-  background-color: transparent;
-  color: #fff;
-}
-
-.busca #s::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #fff;
-  opacity: 1; /* Firefox */
-}
-
-.busca #s:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #fff;
-}
-
-.busca #s::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: #fff;
-  opacity: 1;
 }
 
 .busca #searchbutton {
