@@ -20,7 +20,14 @@
   ?>
   <div class="main-hero">
     <header class="header container">
-      <a href="<?php bloginfo('url'); ?>"><img src="<?= $img_url; ?>/logo.png" alt="<?php bloginfo('name') ?>" width="250" height="250" id="logo" /></a>
+      <a href="<?php bloginfo('url'); ?>"><img src="<?= $img_url; ?>/logo.webp" alt="<?php bloginfo('name') ?>" width="192" height="192" /></a>
+      <div class="busca">
+        <form action="<?php bloginfo('url'); ?>/loja/" method="get">
+          <input type="text" name="s" id="s" placeholder="Buscar" value="<?php the_search_query(); ?>">
+          <input type="text" name="post_type" value="product" class="hidden">
+          <input type="submit" id="searchbutton" value="Buscar">
+        </form>
+      </div>
       <nav class="conta">
         <a href="<?php bloginfo('url'); ?>/minha-conta" class="minha-conta">Minha Conta</a>
         <a href="<?php bloginfo('url'); ?>/carrinho" class="carrinho">Carrinho
@@ -29,13 +36,6 @@
           <?php endif ?>
         </a>
       </nav>
-      <div class="busca">
-        <form action="<?php bloginfo('url'); ?>/loja/" method="get">
-          <input type="text" name="s" id="s" placeholder="Buscar" value="<?php the_search_query(); ?>">
-          <input type="text" name="post_type" value="product" class="hidden">
-          <input type="submit" id="searchbutton" value="Buscar">
-        </form>
-      </div>
     </header>
   </div>
 

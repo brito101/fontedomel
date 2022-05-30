@@ -1,5 +1,5 @@
 <footer class="footer">
-  <img src="<?= get_stylesheet_directory_uri(); ?>/img/logo.webp" alt="<?php bloginfo('name') ?>" width="192" height="192">
+  <img src="<?= get_stylesheet_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo('name') ?>" width="192" height="192">
   <div class="container footer-info">
     <section>
       <h3>Páginas</h3>

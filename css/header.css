@@ -1,12 +1,12 @@
 .main-hero {
   background-image: url("../img/bg-2022-05-30.webp");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 120px;
+  padding-top: 70px;
   padding-bottom: 70px;
 }
 
@@ -17,6 +17,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row-reverse;
 }
 
 .header > a {
@@ -26,14 +27,9 @@
 }
 
 .header > a img {
-  width: 100%;
-}
-
-@media (max-width: 1142px) {
-  .header > a img {
-    width: 80%;
-    height: auto;
-  }
+  width: 250px;
+  height: auto;
+  max-width: 250px !important;
 }
 
 .header .busca {
@@ -48,6 +44,10 @@
 }
 
 @media (max-width: 920px) {
+  .header {
+    flex-direction: row;
+  }
+
   .header > a {
     flex-basis: 100%;
     margin-bottom: 20px;
