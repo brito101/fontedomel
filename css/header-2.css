@@ -1,12 +1,12 @@
 .main-hero {
-  background-image: url("../img/bg-2022-05-30.webp");
+  background-image: url("../img/bg-2022-05-29.webp");
   background-repeat: no-repeat;
   background-position: top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 120px;
+  padding-top: 70px;
   padding-bottom: 70px;
 }
 
