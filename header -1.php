@@ -20,7 +20,7 @@
   ?>
   <div class="main-hero">
     <header class="header container">
-      <a href="<?php bloginfo('url'); ?>" class="logo_custom"><img src="<?= $img_url; ?>/logo.png" alt="<?php bloginfo('name') ?>" width="250" height="250" id="logo" /></a>
+      <a href="<?php bloginfo('url'); ?>"><img src="<?= $img_url; ?>/logo.png" alt="<?php bloginfo('name') ?>" width="250" height="250" id="logo" /></a>
       <nav class="conta">
         <a href="<?php bloginfo('url'); ?>/minha-conta" class="minha-conta">Minha Conta</a>
         <a href="<?php bloginfo('url'); ?>/carrinho" class="carrinho">Carrinho

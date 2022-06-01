@@ -17,7 +17,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 .header > a {
@@ -32,24 +32,22 @@
   max-width: 250px !important;
 }
 
-.header .logo_custom {
-  order: 2;
-}
-
 .header .busca {
   display: flex;
   justify-content: center;
   position: relative;
-  order: 1;
 }
 
 .header .conta {
   display: flex;
   justify-content: center;
-  order: 3;
 }
 
 @media (max-width: 920px) {
+  .header {
+    flex-direction: row;
+  }
+
   .header > a {
     flex-basis: 100%;
     margin-bottom: 20px;
@@ -59,18 +57,12 @@
     max-width: 300px;
   }
 
-  .header .logo_custom {
-    order: 1;
-  }
-
   .header .busca {
     flex-basis: 50%;
-    order: 2;
   }
 
   .header .conta {
     flex-basis: 50%;
-    order: 3;
   }
 }
 
